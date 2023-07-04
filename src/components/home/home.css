@@ -1,5 +1,9 @@
 .home {
     background-image: var(--first-gradient);
+    padding-bottom: 180px;
+    margin-top: 50px;
+}
+.home__wrapper{
     min-height: 100vh;
     display: grid;
     align-items: center;
@@ -90,7 +94,7 @@
 }
 
 .home__banner {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     padding-bottom: 100%;
     border-radius: 50%;
     position: relative;

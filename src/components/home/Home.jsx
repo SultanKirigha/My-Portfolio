@@ -8,6 +8,7 @@ import './home.css'
 function App() {
     return (
         <section className="home" id="home">
+            <div className="home__wrapper">
             <div className="home__container container">
                 <p className="home__subtitle text-cs">
                     Hello, <span>My Name Is</span>
@@ -65,6 +66,7 @@ function App() {
                         My Skills
                     </a>
                 </div>
+            </div>
             </div>
         </section>
     )
