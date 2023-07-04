@@ -104,8 +104,9 @@
 .home__profile {
     position: absolute;
     bottom: 0;
+    margin-left: 20px;
     height: 800px;
-    border-radius: 500px;
+    border-radius: 200px;
     object-fit: cover;
 }
 .home__data {
