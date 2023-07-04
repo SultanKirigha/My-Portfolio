@@ -22,9 +22,28 @@ function App() {
                     <div className="home__banner">
                         <img src={profileImg} alt="" className="home__profile" />
                     </div>
+                    <p className="home__data home__data-one">
+                        <span className="text-lg">
+                            12 <b>+</b>
+                        </span>
+                        <span className="text-sm text-cs">
+                            Years of <span>Experience</span>
+                        </span>
+                    </p>
+                    <p className="home__data home__data-two">
+                        <span className="text-lg">
+                            20 
+                        </span>
+                        <span className="text-sm text-cs">
+                            Completed <span>Projects</span>
+                        </span>
+                    </p>
+                    <img src={shapeOne} alt="" className="shape shape__1" />
+                    <img src={shapeTwo} alt="" className="shape shape__2" />
+                    <img src={shapeTwo} alt="" className="shape shape__3" />
                 </div>
                 <p className="home__text">
-                    From Nairobi, Kenya. I have rich experience in Web design, I am good in Wordpress and UI/UX design, I would love to talk to you about my unique skills
+                    From Nairobi, Kenya. I have rich experience in Web design, I am good in Wordpress and UI/UX design, I would love to talk about my unique skills
                 </p>
                 <div className="home__socials">
                     <a href="" className="home__social-link">
